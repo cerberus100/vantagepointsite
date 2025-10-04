@@ -1,0 +1,372 @@
+{
+  "devices": [
+    {
+      "slug": "diagnostics-poc",
+      "display": {
+        "title": "Diagnostics & Point-of-Care Testing",
+        "clinical_domain": ["diagnostics"],
+        "sites_of_care": ["clinic", "hospital", "ASC"],
+        "regulatory_class": "II",
+        "audiences": ["clinician", "admin", "revenue_cycle", "it_ehr"]
+      },
+      "barriers": ["workflow", "training", "documentation"],
+      "deliverable_modules": [
+        "evidence_brief",
+        "microlearning",
+        "in_service",
+        "emr_assets",
+        "coverage_toolkit",
+        "clinic_day_tools"
+      ],
+      "outreach_pattern": [
+        "email_sequence",
+        "hcp_portal",
+        "schedule_in_service",
+        "emr_delivery",
+        "go_live_support"
+      ],
+      "artifacts": [
+        "brief_pdf",
+        "storyboard",
+        "sop",
+        "template_screenshot",
+        "policy_snapshot"
+      ],
+      "notes": "CLIA considerations and specimen handling."
+    },
+    {
+      "slug": "orthopedics-implants",
+      "display": {
+        "title": "Orthopedics & Joint Replacement",
+        "clinical_domain": ["orthopedics", "sports_medicine"],
+        "sites_of_care": ["hospital", "ASC"],
+        "regulatory_class": "III",
+        "audiences": ["surgeon", "or_staff", "admin", "revenue_cycle"]
+      },
+      "barriers": ["surgeon_preference", "or_workflow", "inventory"],
+      "deliverable_modules": [
+        "evidence_brief",
+        "surgical_technique",
+        "or_checklist",
+        "case_planning",
+        "coverage_toolkit"
+      ],
+      "outreach_pattern": [
+        "email_sequence",
+        "lunch_and_learn",
+        "or_observation",
+        "case_support",
+        "outcomes_tracking"
+      ],
+      "artifacts": [
+        "brief_pdf",
+        "technique_guide",
+        "or_checklist",
+        "implant_card",
+        "billing_guide"
+      ],
+      "notes": "Implant tracking and registry considerations."
+    },
+    {
+      "slug": "cardiac-remote-monitoring",
+      "display": {
+        "title": "Cardiac Remote Monitoring",
+        "clinical_domain": ["cardiology"],
+        "sites_of_care": ["clinic", "hospital", "home"],
+        "regulatory_class": "II",
+        "audiences": ["cardiologist", "nurse", "patient", "revenue_cycle"]
+      },
+      "barriers": ["patient_enrollment", "workflow", "reimbursement"],
+      "deliverable_modules": [
+        "evidence_brief",
+        "enrollment_toolkit",
+        "patient_education",
+        "workflow_guide",
+        "coverage_toolkit"
+      ],
+      "outreach_pattern": [
+        "email_sequence",
+        "hcp_portal",
+        "patient_materials",
+        "enrollment_support",
+        "monthly_reporting"
+      ],
+      "artifacts": [
+        "brief_pdf",
+        "enrollment_script",
+        "patient_brochure",
+        "workflow_diagram",
+        "billing_guide"
+      ],
+      "notes": "RPM billing codes and patient consent requirements."
+    },
+    {
+      "slug": "vascular-endovascular",
+      "display": {
+        "title": "Vascular & Endovascular Devices",
+        "clinical_domain": ["vascular_surgery", "interventional_radiology"],
+        "sites_of_care": ["hospital", "ASC", "OBL"],
+        "regulatory_class": "III",
+        "audiences": ["surgeon", "interventionalist", "or_staff", "admin"]
+      },
+      "barriers": ["technique", "case_selection", "facility_readiness"],
+      "deliverable_modules": [
+        "evidence_brief",
+        "case_planning",
+        "technique_guide",
+        "facility_checklist",
+        "coverage_toolkit"
+      ],
+      "outreach_pattern": [
+        "email_sequence",
+        "case_review",
+        "proctoring",
+        "facility_assessment",
+        "go_live_support"
+      ],
+      "artifacts": [
+        "brief_pdf",
+        "case_criteria",
+        "technique_video",
+        "facility_checklist",
+        "billing_guide"
+      ],
+      "notes": "Site-of-care considerations and facility requirements."
+    },
+    {
+      "slug": "imaging-navigation",
+      "display": {
+        "title": "Imaging & Surgical Navigation",
+        "clinical_domain": ["radiology", "surgery"],
+        "sites_of_care": ["hospital", "ASC"],
+        "regulatory_class": "II",
+        "audiences": ["surgeon", "radiologist", "or_staff", "it_ehr"]
+      },
+      "barriers": ["integration", "training", "workflow"],
+      "deliverable_modules": [
+        "evidence_brief",
+        "technical_training",
+        "workflow_guide",
+        "integration_plan",
+        "coverage_toolkit"
+      ],
+      "outreach_pattern": [
+        "email_sequence",
+        "technical_demo",
+        "hands_on_training",
+        "integration_support",
+        "go_live_support"
+      ],
+      "artifacts": [
+        "brief_pdf",
+        "training_checklist",
+        "workflow_diagram",
+        "integration_spec",
+        "billing_guide"
+      ],
+      "notes": "IT integration and PACS compatibility requirements."
+    },
+    {
+      "slug": "womens-health-pelvic-floor",
+      "display": {
+        "title": "Women's Health & Pelvic Floor",
+        "clinical_domain": ["urogynecology", "womens_health"],
+        "sites_of_care": ["clinic", "hospital", "ASC"],
+        "regulatory_class": "II",
+        "audiences": ["gynecologist", "urogynecologist", "nurse", "patient"]
+      },
+      "barriers": ["patient_awareness", "referral_pathway", "reimbursement"],
+      "deliverable_modules": [
+        "evidence_brief",
+        "patient_education",
+        "referral_toolkit",
+        "clinic_workflow",
+        "coverage_toolkit"
+      ],
+      "outreach_pattern": [
+        "email_sequence",
+        "patient_materials",
+        "referral_education",
+        "clinic_support",
+        "outcomes_tracking"
+      ],
+      "artifacts": [
+        "brief_pdf",
+        "patient_brochure",
+        "referral_criteria",
+        "clinic_checklist",
+        "billing_guide"
+      ],
+      "notes": "Patient education and shared decision-making emphasis."
+    },
+    {
+      "slug": "urology-bph",
+      "display": {
+        "title": "Urology & BPH Treatment",
+        "clinical_domain": ["urology"],
+        "sites_of_care": ["clinic", "hospital", "ASC"],
+        "regulatory_class": "II",
+        "audiences": ["urologist", "nurse", "patient", "admin"]
+      },
+      "barriers": ["patient_selection", "technique", "reimbursement"],
+      "deliverable_modules": [
+        "evidence_brief",
+        "patient_selection",
+        "technique_guide",
+        "patient_education",
+        "coverage_toolkit"
+      ],
+      "outreach_pattern": [
+        "email_sequence",
+        "case_review",
+        "hands_on_training",
+        "patient_materials",
+        "outcomes_tracking"
+      ],
+      "artifacts": [
+        "brief_pdf",
+        "selection_criteria",
+        "technique_guide",
+        "patient_brochure",
+        "billing_guide"
+      ],
+      "notes": "Comparison to medical management and alternative procedures."
+    },
+    {
+      "slug": "pulmonology-airway",
+      "display": {
+        "title": "Pulmonology & Airway Management",
+        "clinical_domain": ["pulmonology", "critical_care"],
+        "sites_of_care": ["hospital", "clinic"],
+        "regulatory_class": "II",
+        "audiences": ["pulmonologist", "intensivist", "respiratory_therapist"]
+      },
+      "barriers": ["technique", "patient_selection", "facility_readiness"],
+      "deliverable_modules": [
+        "evidence_brief",
+        "technique_guide",
+        "patient_selection",
+        "facility_checklist",
+        "coverage_toolkit"
+      ],
+      "outreach_pattern": [
+        "email_sequence",
+        "case_review",
+        "simulation_training",
+        "facility_assessment",
+        "go_live_support"
+      ],
+      "artifacts": [
+        "brief_pdf",
+        "technique_video",
+        "selection_criteria",
+        "facility_checklist",
+        "billing_guide"
+      ],
+      "notes": "Bronchoscopy suite requirements and sedation protocols."
+    },
+    {
+      "slug": "oncology-interventional",
+      "display": {
+        "title": "Oncology & Interventional Procedures",
+        "clinical_domain": ["oncology", "interventional_radiology"],
+        "sites_of_care": ["hospital", "cancer_center"],
+        "regulatory_class": "III",
+        "audiences": ["oncologist", "interventionalist", "nurse", "patient"]
+      },
+      "barriers": ["patient_selection", "multidisciplinary_coordination", "reimbursement"],
+      "deliverable_modules": [
+        "evidence_brief",
+        "patient_selection",
+        "tumor_board_toolkit",
+        "patient_education",
+        "coverage_toolkit"
+      ],
+      "outreach_pattern": [
+        "email_sequence",
+        "tumor_board_presentation",
+        "case_review",
+        "patient_materials",
+        "outcomes_tracking"
+      ],
+      "artifacts": [
+        "brief_pdf",
+        "selection_criteria",
+        "tumor_board_deck",
+        "patient_brochure",
+        "billing_guide"
+      ],
+      "notes": "Multidisciplinary tumor board integration and pathways."
+    },
+    {
+      "slug": "wound-allografts",
+      "display": {
+        "title": "Wound Care & Tissue Allografts",
+        "clinical_domain": ["wound_care", "plastic_surgery"],
+        "sites_of_care": ["clinic", "hospital", "wound_center"],
+        "regulatory_class": "HCT/P",
+        "audiences": ["wound_specialist", "surgeon", "nurse", "revenue_cycle"]
+      },
+      "barriers": ["documentation", "medical_necessity", "reimbursement"],
+      "deliverable_modules": [
+        "evidence_brief",
+        "documentation_guide",
+        "medical_necessity",
+        "application_technique",
+        "coverage_toolkit"
+      ],
+      "outreach_pattern": [
+        "email_sequence",
+        "documentation_training",
+        "technique_demo",
+        "coding_support",
+        "outcomes_tracking"
+      ],
+      "artifacts": [
+        "brief_pdf",
+        "documentation_template",
+        "medical_necessity_letter",
+        "technique_guide",
+        "billing_guide"
+      ],
+      "notes": "LCD/NCD requirements and documentation for medical necessity."
+    }
+  ],
+  "categories": [
+    "diagnostics",
+    "orthopedics",
+    "cardiology",
+    "vascular_surgery",
+    "radiology",
+    "womens_health",
+    "urology",
+    "pulmonology",
+    "oncology",
+    "wound_care"
+  ],
+  "sites_of_care": [
+    "clinic",
+    "hospital",
+    "ASC",
+    "OBL",
+    "home",
+    "cancer_center",
+    "wound_center"
+  ],
+  "barriers": [
+    "workflow",
+    "training",
+    "documentation",
+    "surgeon_preference",
+    "patient_enrollment",
+    "reimbursement",
+    "technique",
+    "case_selection",
+    "facility_readiness",
+    "integration",
+    "patient_awareness",
+    "referral_pathway",
+    "multidisciplinary_coordination",
+    "medical_necessity"
+  ]
+}
