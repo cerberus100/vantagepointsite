@@ -8,51 +8,50 @@ import {
   TrendingUp,
   BarChart3,
   Target,
-  Stethoscope,
   ArrowRight,
   ShieldCheck,
 } from "lucide-react";
 
 const programs = [
   {
-    id: "hcp-education",
-    icon: GraduationCap,
-    title: "HCP Education Programs",
-    description:
-      "Accredited CME/CE programs that build clinical confidence and drive device adoption through evidence-based learning.",
-    deliverables: [
-      "Accredited CME/CE content",
-      "Multi-channel delivery",
-      "Assessment tools",
-      "Completion tracking",
-    ],
-    href: "/programs/hcp-education",
-  },
-  {
     id: "field-enablement",
     icon: Users,
     title: "Field Enablement",
     description:
-      "Equip your sales and clinical teams with the tools, training, and resources to effectively educate healthcare providers.",
+      "Buyer outreach & warm handoffs (no clinical training). Equip your team to reach the right decision units and turn interest into scheduled meetings.",
     deliverables: [
-      "Sales training modules",
-      "Clinical talking points",
-      "Objection handling",
-      "ROI calculators",
+      "Buyer briefs for decision units",
+      "Outreach sequences with talk tracks",
+      "Meeting kits and handoff SOPs",
+      "Calendar and routing patterns",
     ],
     href: "/programs/field-enablement",
+  },
+  {
+    id: "hcp-education-programs",
+    icon: GraduationCap,
+    title: "HCP Education Programs",
+    description:
+      "Non-clinical product knowledge & awareness. Concise education that builds awareness and answers what clinicians and admins need to proceed.",
+    deliverables: [
+      "Evidence digest with references",
+      "Indications/contraindications overview",
+      "Documentation & coverage checklist",
+      "EMR request templates",
+    ],
+    href: "/programs/hcp-education-programs",
   },
   {
     id: "patient-pathways",
     icon: Target,
     title: "Patient Pathways",
     description:
-      "Design and implement patient education and support programs that improve outcomes and device utilization.",
+      "Education and process to support scheduling and adherence. Make it easy for clinics to educate patients and move them through scheduling.",
     deliverables: [
-      "Patient education materials",
-      "Support program design",
-      "Adherence strategies",
-      "Outcome tracking",
+      "Plain-language patient info sheets",
+      "Scheduling scripts and summaries",
+      "Tracking sheets for adherence",
+      "Content handoff for review",
     ],
     href: "/programs/patient-pathways",
   },
@@ -61,40 +60,26 @@ const programs = [
     icon: BarChart3,
     title: "Data & Insights",
     description:
-      "Real-time dashboards and analytics that measure program effectiveness and demonstrate ROI.",
+      "Clean reporting on adoption indicators (no PHI). See what's moving with clear reporting so you can steer programs with confidence.",
     deliverables: [
-      "Custom dashboards",
-      "Campaign attribution",
-      "Compliance reporting",
-      "Predictive analytics",
+      "Weekly rollup of leading indicators",
+      "Program dashboards",
+      "Read-outs with risks and blockers",
+      "Simple data dictionary",
     ],
     href: "/programs/data-insights",
   },
   {
-    id: "surgical-training",
-    icon: Stethoscope,
-    title: "Surgical Training",
-    description:
-      "Hands-on training programs for surgical devices including simulation, proctoring, and certification.",
-    deliverables: [
-      "Simulation training",
-      "Proctoring programs",
-      "Certification pathways",
-      "Skills assessment",
-    ],
-    href: "/programs/surgical-training",
-  },
-  {
     id: "outcomes-tracking",
     icon: TrendingUp,
-    title: "Outcomes Tracking",
+    title: "Reporting & Analytics",
     description:
-      "Registry design and real-world evidence collection to demonstrate device effectiveness and safety.",
+      "Adoption reporting over time (leading indicators only). Track adoption without claiming clinical outcomes—focus on business indicators.",
     deliverables: [
-      "Registry design",
-      "Data collection tools",
-      "Outcomes analysis",
-      "Publication support",
+      "Trend views by account/region",
+      "Pipeline view of decision stages",
+      "Monthly read-outs",
+      "Program adjustments",
     ],
     href: "/programs/outcomes-tracking",
   },

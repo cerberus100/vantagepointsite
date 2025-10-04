@@ -5,7 +5,7 @@ import readingTime from "reading-time";
 
 const contentDirectory = path.join(process.cwd(), "content");
 
-export type ContentType = "case-studies" | "resources";
+export type ContentType = "case-studies" | "resources" | "programs";
 
 export interface CaseStudy {
   slug: string;
@@ -44,6 +44,13 @@ export interface Resource {
   heroImage?: string;
   publishedAt: string;
   readingTime?: string;
+  content: string;
+}
+
+export interface Program {
+  slug: string;
+  title: string;
+  subtitle: string;
   content: string;
 }
 
