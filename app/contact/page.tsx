@@ -1,14 +1,9 @@
-"use client";
-
-import { useSearchParams } from "next/navigation";
+import { Suspense } from "react";
 import { HeroSection } from "@/components/hero-section";
-import { ContactForm } from "@/components/contact-form";
+import { ContactFormWrapper } from "@/components/contact-form-wrapper";
 import { Mail, Phone, MapPin } from "lucide-react";
 
 export default function ContactPage() {
-  const searchParams = useSearchParams();
-  const program = searchParams.get("program");
-
   return (
     <>
       <HeroSection
@@ -94,13 +89,10 @@ export default function ContactPage() {
               <p className="mt-2 text-sm text-slate">
                 Fields marked with * are required
               </p>
-              {program && (
-                <div className="mt-4 rounded-lg bg-teal/10 px-4 py-2 text-sm text-navy">
-                  Program of interest: <span className="font-semibold">{program}</span>
-                </div>
-              )}
               <div className="mt-8">
-                <ContactForm program={program || undefined} />
+                <Suspense fallback={<div>Loading...</div>}>
+                  <ContactFormWrapper />
+                </Suspense>
               </div>
             </div>
           </div>
