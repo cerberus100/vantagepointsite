@@ -1,13 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { LucideIcon } from "lucide-react";
+import { ReactNode } from "react";
 import { cn } from "@/lib/utils";
 
 interface TimelineStep {
   title: string;
   description: string;
-  icon: LucideIcon;
+  icon: ReactNode;
 }
 
 interface ProcessTimelineProps {
@@ -36,7 +36,7 @@ export function ProcessTimeline({ steps, className }: ProcessTimelineProps) {
             </div>
           )}
           <div className="relative flex h-12 w-12 flex-none items-center justify-center rounded-full bg-teal/10">
-            <step.icon className="h-6 w-6 text-teal" aria-hidden="true" />
+            {step.icon}
             <div className="absolute -top-1 -right-1 flex h-6 w-6 items-center justify-center rounded-full bg-navy text-xs font-bold text-white">
               {index + 1}
             </div>

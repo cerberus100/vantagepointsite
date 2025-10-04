@@ -24,31 +24,31 @@ const processSteps = [
     title: "Discovery & Needs Assessment",
     description:
       "We analyze your device, target audience, clinical evidence, and competitive landscape to identify knowledge gaps and learning objectives.",
-    icon: Lightbulb,
+    icon: <Lightbulb className="h-6 w-6" aria-hidden="true" />,
   },
   {
     title: "Program Design",
     description:
       "Our clinical team designs accredited CME/CE content with evidence-based learning modules, case studies, and interactive assessments.",
-    icon: Target,
+    icon: <Target className="h-6 w-6" aria-hidden="true" />,
   },
   {
     title: "Accreditation & Compliance",
     description:
       "We handle all accreditation requirements (ACCME, ANCC, etc.) and ensure full compliance with industry standards and regulations.",
-    icon: FileCheck,
+    icon: <FileCheck className="h-6 w-6" aria-hidden="true" />,
   },
   {
     title: "Delivery & Engagement",
     description:
       "Multi-channel delivery through live events, webinars, on-demand modules, and mobile platforms with built-in engagement tracking.",
-    icon: Users,
+    icon: <Users className="h-6 w-6" aria-hidden="true" />,
   },
   {
     title: "Measurement & Optimization",
     description:
       "Real-time dashboards track completion rates, knowledge gains, confidence shifts, and behavioral intent. We iterate based on data.",
-    icon: BarChart3,
+    icon: <BarChart3 className="h-6 w-6" aria-hidden="true" />,
   },
 ];
 

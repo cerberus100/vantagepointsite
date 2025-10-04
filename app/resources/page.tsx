@@ -14,21 +14,21 @@ import {
 
 const mostRequested = [
   {
-    icon: ClipboardList,
+    icon: <ClipboardList className="h-6 w-6 text-teal" aria-hidden="true" />,
     title: "Measurement definitions",
     summary:
       "Leading indicators for post-code commercialization—what we track and why.",
     href: "/resources/measurement-definitions",
   },
   {
-    icon: SlidersHorizontal,
+    icon: <SlidersHorizontal className="h-6 w-6 text-teal" aria-hidden="true" />,
     title: "Buyer journey map",
     summary:
       "Decision units across hospital, ASC, and IDN—and how to reach each.",
     href: "/resources/buyer-journey-map",
   },
   {
-    icon: ShieldCheck,
+    icon: <ShieldCheck className="h-6 w-6 text-teal" aria-hidden="true" />,
     title: "Value analysis essentials",
     summary: "What procurement and committees need to proceed.",
     href: "/resources/value-analysis-essentials",
@@ -37,25 +37,25 @@ const mostRequested = [
 
 const programPrimers = [
   {
-    icon: Building2,
+    icon: <Building2 className="h-5 w-5 text-teal" aria-hidden="true" />,
     title: "IDN penetration",
     blurb: "How we coordinate multi-facility entry.",
     href: "/programs/idn-penetration",
   },
   {
-    icon: Factory,
+    icon: <Factory className="h-5 w-5 text-teal" aria-hidden="true" />,
     title: "ASC market entry",
     blurb: "Economics, scheduling, and workflows.",
     href: "/programs/asc-market-entry",
   },
   {
-    icon: ActivitySquare,
+    icon: <ActivitySquare className="h-5 w-5 text-teal" aria-hidden="true" />,
     title: "Diagnostics rollout",
     blurb: "From buyer journey to value analysis.",
     href: "/programs/diagnostics-rollout",
   },
   {
-    icon: Watch,
+    icon: <Watch className="h-5 w-5 text-teal" aria-hidden="true" />,
     title: "Remote monitoring growth",
     blurb: "Enrollment, review cadence, adherence.",
     href: "/programs/remote-monitoring-growth",
