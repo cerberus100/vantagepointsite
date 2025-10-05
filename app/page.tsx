@@ -1,88 +1,19 @@
 import Link from "next/link";
 import { Hero } from "@/components/hero";
-import { AssuranceStack } from "@/components/assurance-stack";
+import { AssuranceShowcase } from "@/components/assurance-showcase";
 import { MilestoneTimeline } from "@/components/milestone-timeline";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
-  ShieldCheck,
-  ClipboardCheck,
   Target,
   FolderCog,
   GraduationCap,
   Rocket,
   BarChart3,
   ArrowRight,
-  Boxes,
+  ShieldCheck,
 } from "lucide-react";
 
-const assuranceItems = [
-  {
-    icon: <ClipboardCheck className="h-6 w-6 text-teal" aria-hidden="true" />,
-    title: "How we partner",
-    summary:
-      "Target → Access → Educate → Launch → Measure. Clear scopes and handoffs.",
-    popover: {
-      heading: "Our process",
-      bullets: [
-        "Target: Account mapping and buyer identification",
-        "Access: Value analysis support and GPO/IDN alignment",
-        "Educate: Evidence summaries and product knowledge briefs",
-        "Launch: Email sequences and warm handoffs to sales",
-        "Measure: Leading indicators and monthly read-outs",
-      ],
-    },
-  },
-  {
-    icon: <Boxes className="h-6 w-6 text-teal" aria-hidden="true" />,
-    title: "What we deliver",
-    summary:
-      "Buyer education, compliant outreach, value-analysis support, workflow requests.",
-    popover: {
-      heading: "Deliverables",
-      bullets: [
-        "Value analysis dossier outlines",
-        "Coding and coverage briefs",
-        "HCP education materials",
-        "EMR order-set templates",
-        "Vendor onboarding documentation",
-      ],
-    },
-  },
-  {
-    icon: <BarChart3 className="h-6 w-6 text-teal" aria-hidden="true" />,
-    title: "What we measure",
-    summary:
-      "Meetings booked, EMR order-set requests, VAC submissions, contracting progress.",
-    popover: {
-      heading: "Leading indicators",
-      bullets: [
-        "Meetings booked (and show rate)",
-        "Qualified meetings (ICP + intent)",
-        "Value analysis committee submissions",
-        "EMR order-set activation requests",
-        "Contract stage progression",
-        "Days to first PO",
-      ],
-    },
-  },
-  {
-    icon: <ShieldCheck className="h-6 w-6 text-teal" aria-hidden="true" />,
-    title: "Standards",
-    summary:
-      "Fair-balance language, no off-label, no PHI in forms.",
-    popover: {
-      heading: "Compliance guardrails",
-      bullets: [
-        "No clinical claims without citation",
-        "No off-label promotion",
-        "Permission-based outreach (CAN-SPAM/TCPA)",
-        "No PHI collection in forms",
-        "HCP-only gating when needed",
-      ],
-    },
-  },
-];
 
 const partnershipSteps = [
   {
@@ -203,22 +134,9 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Assurance Stack */}
-      <section className="bg-fog py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="font-serif text-3xl font-bold tracking-tight text-navy sm:text-4xl">
-              What you can inspect before committing
-            </h2>
-            <p className="mt-4 text-lg text-slate">
-              No case studies? No problem. Review our frameworks, sample
-              deliverables, and measurement plans.
-            </p>
-          </div>
-          <div className="mx-auto mt-16 max-w-7xl">
-            <AssuranceStack items={assuranceItems} />
-          </div>
-        </div>
+      {/* Assurance Showcase */}
+      <section className="bg-fog">
+        <AssuranceShowcase />
       </section>
 
       {/* 90-Day Timeline */}
