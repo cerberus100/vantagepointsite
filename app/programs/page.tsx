@@ -138,16 +138,6 @@ export default function ProgramsPage() {
                       ))}
                     </ul>
                   </div>
-                  <Button
-                    asChild
-                    variant="link"
-                    className="mt-6 p-0 text-teal group"
-                  >
-                    <Link href={program.href}>
-                      View program
-                      <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                    </Link>
-                  </Button>
                 </CardContent>
               </Card>
             ))}

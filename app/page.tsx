@@ -193,16 +193,6 @@ export default function HomePage() {
                     Barriers: Workflow, Training, Documentation
                   </span>
                 </div>
-                <Button
-                  asChild
-                  variant="outline"
-                  className="mt-6 w-full group"
-                >
-                  <Link href="/programs/diagnostics-poc">
-                    View program
-                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                  </Link>
-                </Button>
               </CardContent>
             </Card>
           </div>
