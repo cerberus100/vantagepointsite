@@ -90,7 +90,7 @@ export default function ProgramsPage() {
     <>
       <HeroSection
         title="Programs & Blueprints"
-        subtitle="Proven frameworks for accelerating medical device adoption through education, enablement, and evidence."
+        subtitle="Practical frameworks for growing provider adoption through buyer education and compliant outreach."
       />
 
       <section className="py-24">
@@ -144,7 +144,7 @@ export default function ProgramsPage() {
                     className="mt-6 p-0 text-teal group"
                   >
                     <Link href={program.href}>
-                      Learn more
+                      View program
                       <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
                     </Link>
                   </Button>

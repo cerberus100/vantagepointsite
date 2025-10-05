@@ -139,7 +139,7 @@ export default function HomePage() {
         <AssuranceShowcase />
       </section>
 
-      {/* 90-Day Timeline */}
+      {/* Partnership Timeline */}
       <section className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
@@ -165,17 +165,9 @@ export default function HomePage() {
               Programs & Blueprints
             </h2>
             <p className="mt-4 text-lg text-slate">
-              No case studies? No problem. Inspect how we run post-code
-              commercialization—education for buyers, compliant outreach, and
-              warm handoffs—before your numbers exist.
+              Inspect how we run post-code commercialization—education for buyers, 
+              compliant outreach, and warm handoffs—before your numbers exist.
             </p>
-            <div className="mt-6 inline-flex items-center gap-2 rounded-lg border border-slate/20 bg-white px-4 py-2 text-sm text-slate">
-              <ShieldCheck
-                className="h-4 w-4 text-gold"
-                aria-hidden="true"
-              />
-              Sample program for demonstration—no client data or outcomes.
-            </div>
           </div>
           <div className="mx-auto mt-16 max-w-2xl">
             <Card className="transition-shadow hover:shadow-lg">
@@ -189,12 +181,12 @@ export default function HomePage() {
                   </span>
                 </div>
                 <CardTitle className="font-serif text-xl">
-                  Commercialization Blueprint: Diagnostics & Point-of-Care Testing
+                  Diagnostics & Point-of-Care Testing
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-slate">
-                  90-day framework for post-code commercialization of diagnostic devices in clinic and hospital settings. Includes account targeting, value analysis support, and warm handoff processes.
+                  Framework for post-code commercialization of diagnostic devices in clinic and hospital settings. Includes account targeting, value analysis support, and warm handoff processes.
                 </p>
                 <div className="mt-6 flex flex-wrap gap-3">
                   <span className="text-xs text-slate">
@@ -207,7 +199,7 @@ export default function HomePage() {
                   className="mt-6 w-full group"
                 >
                   <Link href="/programs/diagnostics-poc">
-                    View Blueprint
+                    View program
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </Button>
@@ -217,7 +209,7 @@ export default function HomePage() {
           <div className="mt-10 flex justify-center">
             <Button asChild variant="outline">
               <Link href="/programs">
-                View All Blueprints
+                Browse all programs
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
