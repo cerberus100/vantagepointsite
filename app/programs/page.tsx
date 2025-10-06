@@ -153,7 +153,7 @@ export default function ProgramsPage() {
               How these programs work
             </h3>
             <p className="mt-4 text-lg text-slate">
-              High-level overviews only. If a program fits, we'll share details on a call.
+              Each program is tailored to your specific needs and market. We'd love to discuss which approach works best for your device.
             </p>
           </div>
         </div>
