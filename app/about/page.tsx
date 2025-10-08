@@ -30,29 +30,6 @@ const values = [
   },
 ];
 
-const leadership = [
-  {
-    name: "Dr. Jennifer Martinez",
-    role: "Chief Executive Officer",
-    bio: "Former Chief Medical Officer at a Fortune 500 medical device company. 15+ years in clinical affairs and medical education.",
-  },
-  {
-    name: "David Park",
-    role: "Chief Commercial Officer",
-    bio: "20 years in medical device marketing and market access. Previously led commercial strategy for three successful device launches.",
-  },
-  {
-    name: "Dr. Lisa Thompson",
-    role: "Chief Medical Officer",
-    bio: "Board-certified cardiologist with 12 years in academic medicine. Leads our clinical content development and accreditation.",
-  },
-  {
-    name: "Michael Chen",
-    role: "Chief Technology Officer",
-    bio: "Former healthcare data scientist. Built analytics platforms for two health systems and a pharma company.",
-  },
-];
-
 export default function AboutPage() {
   return (
     <>
@@ -132,37 +109,6 @@ export default function AboutPage() {
                   <p className="mt-2 text-sm text-slate">{value.description}</p>
                 </CardContent>
               </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Leadership */}
-      <section className="py-24">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="font-serif text-3xl font-bold text-navy">
-              Leadership Team
-            </h2>
-            <p className="mt-4 text-lg text-slate">
-              Clinical and commercial expertise at the intersection of evidence
-              and adoption
-            </p>
-          </div>
-          <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-12 lg:max-w-none lg:grid-cols-2">
-            {leadership.map((leader) => (
-              <div key={leader.name} className="flex gap-6">
-                <div className="h-24 w-24 flex-shrink-0 rounded-lg bg-slate/10" />
-                <div>
-                  <h3 className="font-serif text-xl font-bold text-navy">
-                    {leader.name}
-                  </h3>
-                  <p className="mt-1 text-sm font-medium text-teal">
-                    {leader.role}
-                  </p>
-                  <p className="mt-3 text-sm text-slate">{leader.bio}</p>
-                </div>
-              </div>
             ))}
           </div>
         </div>
